@@ -1,3 +1,4 @@
+### global define: true ###
 define [
   'interface'
 ], (__interface__) ->
