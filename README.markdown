@@ -19,7 +19,7 @@ Now...
     $ make cname {some-cname.surge.sh}
     $ make all
 
-### Development
+### Long-form development
 
     $ make serve
     $ make dev-app
@@ -28,11 +28,10 @@ Now...
     $ make cleanup
     $ make publish
 
-Or just:
+### Hotfix development
 
-    $ make start
-    $ (choose "build-app")
     (... hackity hack ...)
+    $ make build-app
     $ make deploy
 
 ## Dependencies

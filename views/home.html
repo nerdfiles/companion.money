@@ -1,11 +1,45 @@
-<section class="animated fadeIn">
-  <div class="logo">
+<div>
+  <div
+    style="position: absolute;
+           margin-top: -20vh;
+           width: 100%;
+           text-align: center;
+           font-variant: all-small-caps;"
+  >
+    <a
+      data-hint="static code analysis for first epoch wallet companion"
+      class="hint--bottom"
+      href="http://api.companion.money/reports/client-complexity/"
+    >mrc</a>
+    <a
+      data-hint="static code analysis for one platform"
+      class="hint--bottom"
+      href="http://api.companion.money/reports/complexity/"
+    ><abbr title="application programming interface">api</abbr></a>
+    <a
+      data-hint="platform documentation with apiDoc"
+      class="hint--bottom"
+      href="http://api.companion.money/docs/"
+    >docs</a>
+  </div>
+
+<section
+  ng-class="{
+    'animated': true,
+    'fadeIn': vm.loaded === true
+  }"
+  ng-if="vm.loaded === true"
+>
+  <div
+    class="logo"
+    style="font-variant: all-small-caps;"
+  >
     <div
       class="hint--always hint--top"
       data-hint="conata is getting a new look. we'll be back soon."
     >
       <a
-        href="https://companion.money"
+        href="http://www.companion.money"
       >
         <img
           class="image"
@@ -16,3 +50,4 @@
     </div>
   </div>
 </section>
+</div>

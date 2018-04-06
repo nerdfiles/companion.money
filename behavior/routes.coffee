@@ -7,7 +7,8 @@ define [
 
     $routeProvider
       .when("/", angularAMD.route({
-          templateUrl: './views/home.html'
-          controllerUrl: 'HomeController'
+        templateUrl   : './views/home.html'
+        controllerUrl : 'HomeController'
+        controllerAs  : 'vm'
       }))
       .otherwise({redirectTo: '/'})

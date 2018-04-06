@@ -6,7 +6,8 @@
       $locationProvider.html5Mode(true);
       return $routeProvider.when("/", angularAMD.route({
         templateUrl: './views/home.html',
-        controllerUrl: 'HomeController'
+        controllerUrl: 'HomeController',
+        controllerAs: 'vm'
       })).otherwise({
         redirectTo: '/'
       });
