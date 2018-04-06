@@ -1,0 +1,30 @@
+{
+  "name": "companion.money",
+  "version": "0.0.1",
+  "authors": [
+    "nerdfiles <nerdfiles@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "antigrid": "*",
+    "hint.css": "~1.3.5",
+    "loaders.css": "~0.1.1",
+    "canonical.css": "~1.1.1",
+    "angularAMD": "~0.2.1",
+    "angular": "1.4.5",
+    "angular-route": "~1.4.5",
+    "animate-sass": "~0.6.4",
+    "chocolat": "~0.4.9"
+  },
+  "homepage": "https://github.com/nerdfiles/companion.money",
+  "resolutions": {
+    "angular": "1.4.5"
+  }
+}
