@@ -55,3 +55,5 @@ build-app:
 build-style:
 	compass compile presentation
 
+cleanup:
+	git add . && git commit -m 'Cleanup.' && git push -u

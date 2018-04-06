@@ -10,21 +10,7 @@ Now...
 
     $ cd ./companion.money
 
-## Install
+## Start
 
-    $ make install
-
-## Build
-
-### CoffeeScript
-
-    $ make build-application
-
-### SASS
-
-    $ make build-presentation
-
-## Publish
-
-    $ make publish
-
+    $ make start
+    (... hackity hack ...)
