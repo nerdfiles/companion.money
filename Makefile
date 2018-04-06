@@ -26,17 +26,18 @@ serve:
 dev-app:
 	coffee -wc behavior/*.coffee
 
-stop-dev-app:
-	ps -eo pid,command | grep coffee | cut -d ' ' -f1 | xargs kill -9
-
 dev-style:
 	compass watch presentation
+
+stop-dev-app:
+	ps -eo pid,command | grep coffee | cut -d ' ' -f1 | xargs kill -9
 
 stop-dev-style:
 	ps -eo pid,command | grep compass | cut -d ' ' -f1 | xargs kill -9
 
-publish:
-	surge . companion.money
+stop-all-dev:
+	ps -eo pid,command | grep coffee | cut -d ' ' -f1 | xargs kill -9
+	ps -eo pid,command | grep compass | cut -d ' ' -f1 | xargs kill -9
 
 build-app:
 	coffee -c behavior/*.coffee
@@ -46,6 +47,9 @@ build-style:
 
 cleanup:
 	git add . && git commit -m '#cleanup'
+
+publish:
+	surge . companion.money
 
 deploy:
 	git add . && git commit -m '#deploy' && git push -u
