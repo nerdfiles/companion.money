@@ -10,8 +10,17 @@ Now...
 
     $ cd ./companion.money
 
-## Start
+## Workflow
 
     $ make start
     (... hackity hack ...)
+    $ make start
     $ make all
+
+## Dependencies
+
+1. `percol`
+2. Compass
+3. CoffeeScript
+4. `bower`
+5. Python (for `SimpleHTTPServer`)
