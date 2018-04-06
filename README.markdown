@@ -2,6 +2,14 @@
 
 A companion for programmable money.
 
+## Clone
+
+    $ git clone git@github.com:nerdfiles/companion.money.git
+
+## Install
+
+    $ bower i
+
 ## Build
 
 ### CoffeeScript
@@ -13,4 +21,8 @@ A companion for programmable money.
 
     $ cd presentation
     $ compass compile
+
+## Publish
+
+    $ surge . companion.money
 
