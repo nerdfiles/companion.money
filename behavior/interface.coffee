@@ -5,12 +5,12 @@ define [
   'angular-route'
 ], (angularAMD, angular, routes) ->
 
-  applicationDependencies = [
+  deps = [
     'ngRoute'
   ]
 
   # Declare our application.
-  app = angular.module 'MoneyCompanion', applicationDependencies
+  app = angular.module 'MoneyCompanion', deps
 
   # Implement routes.
   app.config([

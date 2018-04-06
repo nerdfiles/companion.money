@@ -2,7 +2,6 @@ ifneq ($(wildcard ./node_modules),)
 	include ./node_modules/makefile-help/Makefile
 endif
 
-# Run commands with the node debugger. (default: false)
 DEBUG ?= false
 
 ifeq ($(DEBUG),false)
@@ -11,34 +10,48 @@ else
 	node = node debug
 endif
 
-.PHONY: start install build-application build-presentation publish help
+.PHONY: start install serve dev-app stop-dev-app dev-style stop-dev-style publish build-app build-style
 
-all: build-application build-presentation publish
+# * all
+all: build-app build-style publish
 
+# * start
+start:
+	cat Makefile | grep -v "[^\"]?:" | grep ":" | cut -d ':' -f1 | percol | xargs make
+
+# * install
 install:
 	bower i
 
-start:
+# * serve
+serve:
 	python -m SimpleHTTPServer
 
+# * dev-app
 dev-app:
 	coffee -wc behavior/*.coffee
 
+# * stop-dev-app
 stop-dev-app:
 	ps -eo pid,command | grep coffee | cut -d ' ' -f1 | xargs kill -9
 
+# * dev-style
 dev-style:
 	compass watch presentation
 
+# * stop-dev-style
 stop-dev-style:
 	ps -eo pid,command | grep compass | cut -d ' ' -f1 | xargs kill -9
 
+# * publish
 publish:
 	surge . companion.money
 
-build-application:
+# * build-app
+build-app:
 	coffee -c behavior/*.coffee
 
-build-presentation:
+# * build-style
+build-style:
 	compass compile presentation
 
