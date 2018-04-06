@@ -11,7 +11,7 @@
       vm.loaded = false;
       $timeout(function() {
         vm.loaded = true;
-      }, 4);
+      }, 200);
     };
     return ['$scope', '$timeout', HomeController];
   });

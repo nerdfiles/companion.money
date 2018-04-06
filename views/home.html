@@ -1,7 +1,12 @@
-<section class="animated fadeIn">
+<section
+  ng-class="{
+    'animated': true,
+    'fadeIn': vm.loaded === true
+  }"
+  ng-if="vm.loaded === true"
+>
   <div
     class="logo"
-    ng-if="vm.loaded === true"
   >
     <div
       class="hint--always hint--top"

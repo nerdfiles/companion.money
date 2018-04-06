@@ -12,7 +12,7 @@ define [
     $timeout(() ->
       vm.loaded = true
       return
-    , 4)
+    , 200)
 
     return
 
