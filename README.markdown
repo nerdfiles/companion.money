@@ -14,3 +14,4 @@ Now...
 
     $ make start
     (... hackity hack ...)
+    $ make all

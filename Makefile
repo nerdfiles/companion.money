@@ -12,7 +12,7 @@ endif
 
 .PHONY: start install serve dev-app stop-dev-app dev-style stop-dev-style publish build-app build-style cleanup
 
-all: build-app build-style publish
+all: install build-app build-style deploy publish
 
 start:
 	cat Makefile | grep -v "[^\"]?:" | grep ":" | cut -d ':' -f1 | percol | xargs make
@@ -45,4 +45,7 @@ build-style:
 	compass compile presentation
 
 cleanup:
-	git add . && git commit -m 'Cleanup.' && git push -u
+	git add . && git commit -m '#cleanup'
+
+deploy:
+	git add . && git commit -m '#deploy' && git push -u
