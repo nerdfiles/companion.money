@@ -24,7 +24,7 @@ serve:
 	python -m SimpleHTTPServer
 
 dev-app:
-	coffee -wc behavior/*.coffee
+	coffee -wc behavior/**/**/**/*.coffee
 
 dev-style:
 	compass watch presentation
@@ -40,7 +40,7 @@ stop-all-dev:
 	ps -eo pid,command | grep compass | cut -d ' ' -f1 | xargs kill -9
 
 build-app:
-	coffee -c behavior/*.coffee
+	coffee -c behavior/**/**/**/*.coffee
 
 build-style:
 	compass compile presentation

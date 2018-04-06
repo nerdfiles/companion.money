@@ -9,5 +9,6 @@ define [
       .when("/", angularAMD.route({
           templateUrl: './views/home.html'
           controllerUrl: 'HomeController'
+          controllerAs: 'vm'
       }))
       .otherwise({redirectTo: '/'})
