@@ -1,8 +1,10 @@
 /*@import "compass/reset";*/
 
+$use-fadeIn: true;
+$use-fadeOut: true;
 
 @import "../../../vendors/antigrid/_system/sass/_screen";
-@import "../../../vendors/animate-sass/animate";
+@import "../../../vendors/animate-sass/_animate";
 /*@import "../../../vendors/hint.css/src/hint";*/
 @import "../../../vendors/hint.css/hint.css";
 @import "../../../vendors/loaders.css/src/loaders";
