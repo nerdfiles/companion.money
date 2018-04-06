@@ -8,14 +8,32 @@ A companion for programmable money.
 
 Now...
 
+## Workflows
+
     $ cd ./companion.money
-
-## Workflow
-
     $ make start
-    (... hackity hack ...)
-    $ make start
+
+### Setup
+
+    $ make install
+    $ make cname {some-cname.surge.sh}
     $ make all
+
+### Development
+
+    $ make serve
+    $ make dev-app
+    $ make dev-style
+    (... hackity hack ...)
+    $ make cleanup
+    $ make publish
+
+Or just:
+
+    $ make start
+    $ (choose "build-app")
+    (... hackity hack ...)
+    $ make deploy
 
 ## Dependencies
 

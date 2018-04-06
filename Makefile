@@ -10,12 +10,12 @@ else
 	node = node debug
 endif
 
-.PHONY: start install serve dev-app stop-dev-app dev-style stop-dev-style publish build-app build-style cleanup
+.PHONY: start install cname serve dev-app stop-dev-app dev-style stop-dev-style publish build-app build-style cleanup cname
 
-all: install build-app build-style deploy publish
+all: build-app build-style deploy
 
 start:
-	cat Makefile | grep -v "[^\"]?:" | grep ":" | cut -d ':' -f1 | percol | xargs make
+	cat Makefile | grep -v "[^\"]?:" | grep "[^%^@]:" | cut -d ':' -f1 | percol | xargs make
 
 install:
 	bower i
@@ -49,3 +49,12 @@ cleanup:
 
 deploy:
 	git add . && git commit -m '#deploy' && git push -u
+	surge . companion.money
+
+cname:
+	@echo $(filter-out $@,$(MAKECMDGOALS)) > CNAME
+
+%:
+	@:
+
+
