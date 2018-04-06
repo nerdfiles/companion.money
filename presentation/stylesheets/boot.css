@@ -1395,48 +1395,48 @@ body {
 }
 /* line 15, ../../vendors/loaders.css/src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(1) {
-  animation-delay: -0.07s;
-  animation-duration: 1.3s;
+  animation-delay: 0.32s;
+  animation-duration: 1.22s;
 }
 /* line 15, ../../vendors/loaders.css/src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(2) {
-  animation-delay: 0.58s;
-  animation-duration: 0.98s;
-}
-/* line 15, ../../vendors/loaders.css/src/animations/ball-grid-beat.scss */
-.ball-grid-beat > div:nth-child(3) {
-  animation-delay: -0.09s;
+  animation-delay: -0.11s;
   animation-duration: 0.74s;
 }
 /* line 15, ../../vendors/loaders.css/src/animations/ball-grid-beat.scss */
+.ball-grid-beat > div:nth-child(3) {
+  animation-delay: 0.17s;
+  animation-duration: 0.93s;
+}
+/* line 15, ../../vendors/loaders.css/src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(4) {
-  animation-delay: 0s;
-  animation-duration: 1.16s;
+  animation-delay: 0.63s;
+  animation-duration: 1.24s;
 }
 /* line 15, ../../vendors/loaders.css/src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(5) {
-  animation-delay: 0.7s;
+  animation-delay: 0.11s;
   animation-duration: 1.12s;
 }
 /* line 15, ../../vendors/loaders.css/src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(6) {
-  animation-delay: 0.17s;
-  animation-duration: 1.08s;
+  animation-delay: 0.12s;
+  animation-duration: 1.57s;
 }
 /* line 15, ../../vendors/loaders.css/src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(7) {
-  animation-delay: -0.04s;
-  animation-duration: 1.09s;
+  animation-delay: 0.68s;
+  animation-duration: 1.53s;
 }
 /* line 15, ../../vendors/loaders.css/src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(8) {
-  animation-delay: 0.12s;
-  animation-duration: 0.77s;
+  animation-delay: 0.74s;
+  animation-duration: 1.12s;
 }
 /* line 15, ../../vendors/loaders.css/src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(9) {
-  animation-delay: 0.59s;
-  animation-duration: 0.97s;
+  animation-delay: 0.79s;
+  animation-duration: 1.45s;
 }
 /* line 27, ../../vendors/loaders.css/src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div {
@@ -1472,48 +1472,48 @@ body {
 }
 /* line 20, ../../vendors/loaders.css/src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(1) {
-  animation-delay: 0.15s;
-  animation-duration: 0.72s;
+  animation-delay: -0.02s;
+  animation-duration: 1.27s;
 }
 /* line 20, ../../vendors/loaders.css/src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(2) {
-  animation-delay: -0.16s;
-  animation-duration: 0.78s;
+  animation-delay: 0.21s;
+  animation-duration: 1.44s;
 }
 /* line 20, ../../vendors/loaders.css/src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(3) {
-  animation-delay: 0.63s;
-  animation-duration: 0.93s;
+  animation-delay: 0.16s;
+  animation-duration: 0.98s;
 }
 /* line 20, ../../vendors/loaders.css/src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(4) {
-  animation-delay: -0.08s;
-  animation-duration: 1.01s;
+  animation-delay: 0.08s;
+  animation-duration: 1.05s;
 }
 /* line 20, ../../vendors/loaders.css/src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(5) {
-  animation-delay: -0.03s;
-  animation-duration: 0.66s;
+  animation-delay: 0.31s;
+  animation-duration: 1.14s;
 }
 /* line 20, ../../vendors/loaders.css/src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(6) {
-  animation-delay: 0.3s;
-  animation-duration: 1.46s;
+  animation-delay: 0.77s;
+  animation-duration: 0.73s;
 }
 /* line 20, ../../vendors/loaders.css/src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(7) {
-  animation-delay: 0.11s;
-  animation-duration: 1.22s;
+  animation-delay: 0.35s;
+  animation-duration: 1.12s;
 }
 /* line 20, ../../vendors/loaders.css/src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(8) {
-  animation-delay: 0.56s;
-  animation-duration: 0.77s;
+  animation-delay: 0.66s;
+  animation-duration: 1.44s;
 }
 /* line 20, ../../vendors/loaders.css/src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(9) {
-  animation-delay: 0.7s;
-  animation-duration: 1s;
+  animation-delay: 0.01s;
+  animation-duration: 1.38s;
 }
 /* line 32, ../../vendors/loaders.css/src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div {
@@ -1849,23 +1849,23 @@ body {
 }
 /* line 19, ../../vendors/loaders.css/src/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(1) {
-  animation-delay: 0.75s;
-  animation-duration: 0.95s;
+  animation-delay: -0.11s;
+  animation-duration: 0.86s;
 }
 /* line 19, ../../vendors/loaders.css/src/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.33s;
-  animation-duration: 1.09s;
+  animation-delay: 0.36s;
+  animation-duration: 0.65s;
 }
 /* line 19, ../../vendors/loaders.css/src/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(3) {
-  animation-delay: 0.02s;
-  animation-duration: 1.07s;
+  animation-delay: 0.14s;
+  animation-duration: 0.58s;
 }
 /* line 19, ../../vendors/loaders.css/src/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(4) {
-  animation-delay: 0.37s;
-  animation-duration: 1.29s;
+  animation-delay: -0.08s;
+  animation-duration: 0.53s;
 }
 /* line 29, ../../vendors/loaders.css/src/animations/line-scale-random.scss */
 .line-scale-party > div {
@@ -2609,12 +2609,6 @@ video {
 
 /* line 16, ../sass/implementation/pages/_home.scss */
 .image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 120px;
-  height: 120px;
-  margin: -60px 0 0 -60px;
   -webkit-animation: spin 4s linear infinite;
   -moz-animation: spin 4s linear infinite;
   animation: spin 4s linear infinite;

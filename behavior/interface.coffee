@@ -21,4 +21,5 @@ define [
   ])
 
   $body = angular.element(document)
+
   angularAMD.bootstrap(app, true, $body)
