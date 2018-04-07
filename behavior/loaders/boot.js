@@ -9,7 +9,8 @@
       bootstrap: './bootstrap/base',
       "interface": './interface',
       routes: './routes',
-      HomeController: './modules/home/controllers/base'
+      HomeController: './modules/home/controllers/base',
+      homeDirective: './modules/home/directives/base'
     },
     shim: {
       angular: {

@@ -8,6 +8,8 @@ require.config
     interface       : './interface'
     routes          : './routes'
     HomeController  : './modules/home/controllers/base'
+    homeDirective   : './modules/home/directives/base'
+
   shim:
     angular:
       exports: 'angular'
