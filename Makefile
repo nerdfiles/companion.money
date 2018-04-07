@@ -61,4 +61,6 @@ cname:
 %:
 	@:
 
+open:
+	open http://companion.money
 
