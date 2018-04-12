@@ -7,17 +7,21 @@ define [
 
       controller: [
         '$scope',
-        ($scope) -> vm = @
-          controler.log $scope
+        ($scope) ->
+          vm = @
+          console.log $scope
+          return
       ],
 
       restrict: 'A'
-      scope:
+      scope: {
+
         template: '='
         inbound: '='
-        outbound '='
+        outbound: '='
         idempotent: '='
         nonidempotent: '='
+      }
       controllerAs: 'vm'
       link: ($scope, $element, $attr) ->
         controler.log $scope
